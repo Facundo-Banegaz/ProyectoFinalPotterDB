@@ -1,0 +1,11 @@
+.card{
+background: rgb(40,2,54);
+background: linear-gradient(90deg, rgb(26, 0, 35) 0%, rgb(14, 1, 45) 100%, rgb(33, 1, 1) 100%, rgb(14, 0, 42) 100%);
+}
+.btn-primary{
+  background-color:  #d926d9;
+  border-color:  #c322c3;
+}
+.btn-primary:hover{
+  background-color: #c322c3;
+}

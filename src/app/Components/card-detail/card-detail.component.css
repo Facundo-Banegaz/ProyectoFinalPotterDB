@@ -1,0 +1,10 @@
+  .card {
+            background: rgb(40,2,54);
+background: linear-gradient(90deg, rgb(26, 0, 35) 0%, rgb(14, 1, 45) 100%, rgb(33, 1, 1) 100%, rgb(14, 0, 42) 100%);
+        }
+        .chapter-list a {
+            color: rgb(229, 229, 252);
+        }
+        .chapter-list a:hover {
+            text-decoration: underline;
+        }
