@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fondo">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" routerLink="/home">
       <img src="../../../assets/img/logo.svg" alt="Logo de Harry Potter" width="100" height="60" class="img-fluid">
     </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,19 +9,22 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#libros">Libros</a>
+          <a class="nav-link" routerLink="/home" routerLinkActive="clase-activa">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#personajes">Personajes</a>
+          <a class="nav-link" routerLink="/books" routerLinkActive="clase-activa">Libros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#peliculas">Películas</a>
+          <a class="nav-link" routerLink="/characters" routerLinkActive="clase-activa">Personajes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#pociones">Pociones</a>
+          <a class="nav-link" routerLink="/movies" routerLinkActive="clase-activa">Películas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#hechizos">Hechizos</a>
+          <a class="nav-link" routerLink="/potions" routerLinkActive="clase-activa">Pociones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/spells" routerLinkActive="clase-activa">Hechizos</a>
         </li>
       </ul>
     </div>
